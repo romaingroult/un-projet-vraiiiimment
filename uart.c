@@ -2,17 +2,17 @@
 #include <avr/interrupt.h>
 #include <stdint.h>
 #include <stdio.h>
+#include <string.h>
 #include "uart.h"
-#include "ring_buffer.h"
+#include "buffer.h"
 
-static uint8_t rx_buffer_data[RX_BUFFER_SIZE];
-static struct ring_buffer rx_buffer;
+static uint8_t buffer_data[BUFFER_SIZE];
+static struct buffer buffer;
 
 void UART__init(void) {
     uint16_t ubrr = MYUBRR;
 
     UCSR0A = (1 << U2X0);
-    ubrr = (F_CPU / 8 / BAUD) - 1;
     
     UBRR0H = (uint8_t)(ubrr >> 8);
     UBRR0L = (uint8_t)ubrr;
@@ -20,15 +20,14 @@ void UART__init(void) {
     UCSR0C = (1 << UCSZ01) | (1 << UCSZ00);
     UCSR0B = (1 << RXEN0) | (1 << TXEN0) | (1 << RXCIE0);
     
-    ring_buffer__init(&rx_buffer, rx_buffer_data, RX_BUFFER_SIZE);
+    initialize_buffer(&buffer, buffer_data, BUFFER_SIZE);
     sei();
 }
 
 uint8_t UART__getc(void) {
     uint8_t data;
     
-    while (ring_buffer__pop(&rx_buffer, &data) == 0) {}
-    
+    while (buffer_pop(&buffer, &data) == 0) {}
     return data;
 }
 
@@ -38,7 +37,14 @@ void UART__putc(uint8_t data) {
     UDR0 = data;
 }
 
-void UART__write(const uint8_t *buffer, uint16_t n) {
+void UART__write(const uint8_t *source, uint16_t n) {
+    for (uint16_t i = 0; i < n; i++) {
+        UART__putc(source[i]);
+    }
+}
+
+void UART__write_chars(const char *buffer) {
+    uint16_t n = strlen(buffer);
     for (uint16_t i = 0; i < n; i++) {
         UART__putc(buffer[i]);
     }
@@ -46,7 +52,7 @@ void UART__write(const uint8_t *buffer, uint16_t n) {
 
 ISR(USART_RX_vect) {
     uint8_t data = UDR0;
-    ring_buffer__push(&rx_buffer, data);
+    buffer_push(&buffer, data);
 }
 
 static int uart_putchar(char c, FILE *stream) {    
@@ -77,20 +83,20 @@ void UART__init_stdio(void) {
     stdin = &uart_input;
 }
 
-void UART__read(uint8_t *buffer, uint16_t n) {
+void UART__read(uint8_t *target, uint16_t n) {
     for (uint16_t i = 0; i < n; i++) {
-        buffer[i] = UART__getc();
+        target[i] = UART__getc();
     }
 }
 
-uint16_t UART__read_timeout(uint8_t *buffer, uint8_t n, uint16_t timeout_ms) {
-    uint8_t read = 0;
+uint16_t UART__read_timeout(uint8_t *target, uint16_t n, uint16_t timeout_ms) {
+    uint16_t read = 0;
     uint16_t counter;
     
     for (uint16_t i = 0; i < n; i++) {
         counter = 0;
         
-        while (ring_buffer__pop(&rx_buffer, &buffer[i]) == 0) {
+        while (buffer_pop(&buffer, &target[i]) == 0) {
             for (uint16_t j = 0; j < 4000; j++) {
                 __asm__ __volatile__("nop");
             }

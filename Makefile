@@ -6,12 +6,12 @@ WARNINGS := -Wall -Wextra -pedantic -Wshadow -Wpointer-arith -Wcast-align \
 
 CFLAGS := -Os -DF_CPU=16000000UL -mmcu=atmega328p $(WARNINGS)
 
-PORT := COM12
+PORT := COM7
 PROGRAMMER := arduino
 BAUD := 115200
 
-SRCS := main.c uart.c
-LIBS := libring_buffer.a
+SRCS := main.c uart.c buffer.c
+LIBS :=
 TARGET := program
 
 all: flash
