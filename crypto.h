@@ -2,11 +2,10 @@
 #define CRYPTO_H
 
 #include <stdint.h>
+#include "eeprom_registry.h"
 
-#define PRIVATE_KEY_SIZE  21
 #define PUBLIC_KEY_SIZE   40
 #define SIGNATURE_SIZE    40
-#define HASH_SIZE         20
 
 void initialize_crypto(void);
 

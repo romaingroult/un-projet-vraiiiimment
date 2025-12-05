@@ -5,6 +5,7 @@
 #include "led.h"
 #include "button.h"
 #include "crypto.h"
+#include "eeprom_registry.h"
 
 #define STATUS_OK                     0
 #define STATUS_ERR_COMMAND_UNKNOWN    1
@@ -34,10 +35,13 @@ uint8_t waitForConsent(){
 }
 
 void makeCredentials(){
-    const char * response = "makingCredentials";
+    const uint8_t app_id[APP_ID_SIZE];
+    UART__read(app_id, APP_ID_SIZE);
 
-    const uint8_t app_id[20];
-    UART__read(app_id, 20);
+    if(!can_register(app_id)){
+        UART__putc(STATUS_ERR_STORAGE_FULL);
+        return;
+    }
 
     if(!waitForConsent()){
         UART__putc(STATUS_ERR_APPROVAL); 
@@ -54,9 +58,15 @@ void makeCredentials(){
 
     uint8_t* credential_id = generate_credential_id();
 
-    UART__putc(0x00);
-    UART__write(credential_id, 16);
-    UART__write(public_key, PUBLIC_KEY_SIZE);
+    register_credential(app_id, credential_id, private_key);
+
+    uint8_t response[57];
+    response[0] = STATUS_OK;
+    memcpy(&response[1], credential_id, CREDENTIAL_ID_SIZE);
+    memcpy(&response[17], public_key, PUBLIC_KEY_SIZE);
+    
+    UART__write(response, 57);
+
 }
 
 void f2(){
@@ -74,6 +84,7 @@ void initialize(){
     initialize_led();
     initialize_button();
     initialize_crypto();
+    initialize_registry();
 }
 
 int main(void) {

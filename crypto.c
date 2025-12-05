@@ -50,7 +50,7 @@ uint8_t generate_keypair(uint8_t *private_key, uint8_t *public_key) {
 }
 
 uint8_t* generate_credential_id() {
-    uint8_t credential_id[16];
-    rng_function(credential_id, 16);
+    uint8_t credential_id[CREDENTIAL_ID_SIZE];
+    rng_function(credential_id, CREDENTIAL_ID_SIZE);
     return credential_id;
 }
