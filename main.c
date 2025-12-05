@@ -7,6 +7,11 @@
     #include "crypto.h"
     #include "eeprom_registry.h"
 
+    #define COMMAND_LIST_CREDENTIALS 0
+    #define COMMAND_MAKE_CREDENTIAL 1
+    #define COMMAND_GET_ASSERTION 2
+    #define COMMAND_RESET 3
+
     #define STATUS_OK                     0
     #define STATUS_ERR_COMMAND_UNKNOWN    1
     #define STATUS_ERR_CRYPTO_FAILED      2
@@ -154,19 +159,20 @@
             uint8_t command_length;
             UART__read(command_buffer, &command_length);
             switch (command_buffer[0]) {
-                case 0x00:
+                case COMMAND_LIST_CREDENTIALS:
                     listCredentials();
                     break;
-                case 0x01:
+                case COMMAND_MAKE_CREDENTIAL:
                     makeCredentials(command_buffer, command_length);
                     break;
-                case 0x02:
+                case COMMAND_GET_ASSERTION:
                     getAssertion(command_buffer, command_length);
                     break;
-                case 0x03:
+                case COMMAND_RESET:
                     reinitializeRegistry();
                     break;
                 default:
+                    UART__putc(STATUS_ERR_COMMAND_UNKNOWN);
                     break;
             }
         }
