@@ -143,7 +143,6 @@
 
     void initialize(){
         UART__init();
-        initialize_led();
         initialize_button();
         initialize_crypto();
         initialize_registry();
