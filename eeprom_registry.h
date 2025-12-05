@@ -33,4 +33,8 @@ uint8_t count_credentials(void);
 
 uint8_t can_register(const uint8_t *app_id);
 
+void get_credential(uint8_t index, uint8_t* credential_id, uint8_t* private_key);
+
+void list_credentials(uint8_t *list, uint8_t *count);
+
 #endif

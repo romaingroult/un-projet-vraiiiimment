@@ -56,7 +56,8 @@ void makeCredentials(){
         return;
     }
 
-    uint8_t* credential_id = generate_credential_id();
+    uint8_t credential_id[CREDENTIAL_ID_SIZE];
+    generate_credential_id(credential_id);
 
     register_credential(app_id, credential_id, private_key);
 
@@ -69,14 +70,61 @@ void makeCredentials(){
 
 }
 
-void f2(){
-    const char * response = "command 2";
-    UART__write_chars(response);
+void getAssertion(){
+    uint8_t app_id[APP_ID_SIZE];
+    uint8_t client_data[CLIENT_DATA_SIZE];
+
+    UART__read(app_id, APP_ID_SIZE);
+    UART__read(client_data, CLIENT_DATA_SIZE);
+
+    uint8_t index = find_credential(app_id);
+    if(index == MAX_CREDENTIALS){
+        UART__putc(STATUS_ERR_NOT_FOUND);
+        return;
+    }
+
+    if(!waitForConsent()){
+        UART__putc(STATUS_ERR_APPROVAL); 
+        return; 
+    }
+
+    uint8_t private_key[PRIVATE_KEY_SIZE];
+    uint8_t credential_id[CREDENTIAL_ID_SIZE];
+
+    get_credential(index, credential_id, private_key);
+
+    uint8_t signature[CREDENTIAL_ID_SIZE];
+    if(!sign_client_data(private_key, client_data, signature)){
+        UART__putc(STATUS_ERR_CRYPTO_FAILED);
+        return;
+    }
+    
+    uint8_t response[57];
+    response[0] = STATUS_OK;
+    memcpy(&response[1], credential_id, CREDENTIAL_ID_SIZE);
+    memcpy(&response[17], signature, SIGNATURE_SIZE);
+    
+    UART__write(response, 57);
 }
 
-void f3(){
-    const char * response = "command 3";
-    UART__write_chars(response);
+void reinitializeRegistry(){
+    if(!waitForConsent()){
+        UART__putc(STATUS_ERR_APPROVAL); 
+        return; 
+    }
+    reset_registry();
+    UART__putc(STATUS_OK);
+}
+
+void listCredentials(){
+    uint8_t count;
+    uint8_t response[2 + MAX_CREDENTIALS*(APP_ID_SIZE + CREDENTIAL_ID_SIZE)];
+    
+    response[0] = STATUS_OK;
+    list_credentials(&response[2], &count);
+    response[1] = count;
+    
+    UART__write(response, 2 + count*(APP_ID_SIZE + CREDENTIAL_ID_SIZE));
 }
 
 void initialize(){
@@ -88,28 +136,22 @@ void initialize(){
 }
 
 int main(void) {
-
     initialize();
-
-    const char * sentence = "type your command";
-    //UART__write((const uint8_t*) sentence, strlen(sentence));
-    
     while (1) {
         uint8_t command = UART__getc();
-        
         switch (command) {
+            case 0x00:
+                listCredentials();
+                break;
             case 0x01:
                 makeCredentials();
                 break;
-                
-            case '2':
-                f2();
+            case 0x02:
+                getAssertion();
                 break;
-                
-            case '3':
-                f3();
+            case 0x03:
+                reinitializeRegistry();
                 break;
-                
             default:
                 break;
         }

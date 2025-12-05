@@ -1,31 +1,31 @@
 Archive member included to satisfy reference by file (symbol)
 
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
-                              C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o (__mulsi3)
+                              C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o (__mulsi3)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodhi4.o)
-                              C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o (__divmodhi4)
+                              C:\Users\romai\AppData\Local\Temp\ccyScJcm.o (__divmodhi4)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
                               C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o (exit)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
-                              C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o (__do_copy_data)
+                              C:\Users\romai\AppData\Local\Temp\ccS8J66b.o (__do_copy_data)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
-                              C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o (__do_clear_bss)
+                              C:\Users\romai\AppData\Local\Temp\ccS8J66b.o (__do_clear_bss)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clzsi2.o)
-                              C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o (__clzsi2)
+                              C:\Users\romai\AppData\Local\Temp\ccyScJcm.o (__clzsi2)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clzhi2.o)
                               C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clzsi2.o) (__clzhi2)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
                               C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o) (__muluhisi3)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulsidi3.o)
-                              C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o (__umulsidi3)
+                              C:\Users\romai\AppData\Local\Temp\ccyScJcm.o (__umulsidi3)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_prologue.o)
-                              C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o (__prologue_saves__)
+                              C:\Users\romai\AppData\Local\Temp\cca4qOfM.o (__prologue_saves__)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_epilogue.o)
-                              C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o (__epilogue_restores__)
+                              C:\Users\romai\AppData\Local\Temp\cca4qOfM.o (__epilogue_restores__)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
-                              C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o (__adddi3)
+                              C:\Users\romai\AppData\Local\Temp\ccyScJcm.o (__adddi3)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_cmpdi2.o)
-                              C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o (__cmpdi2)
+                              C:\Users\romai\AppData\Local\Temp\ccyScJcm.o (__cmpdi2)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
                               C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o) (__umulhisi3)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
@@ -33,122 +33,114 @@ C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/.
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
                               C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulsidi3.o) (__muldi3_6)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libc.a(iob.o)
-                              C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o (__iob)
+                              C:\Users\romai\AppData\Local\Temp\ccS8J66b.o (__iob)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eerd_block.o)
-                              C:\Users\romai\AppData\Local\Temp\cc4RBmke.o (eeprom_read_block)
+                              C:\Users\romai\AppData\Local\Temp\cccf6ysi.o (eeprom_read_block)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eerd_byte.o)
-                              C:\Users\romai\AppData\Local\Temp\cc4RBmke.o (eeprom_read_byte)
+                              C:\Users\romai\AppData\Local\Temp\cccf6ysi.o (eeprom_read_byte)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eewr_block.o)
-                              C:\Users\romai\AppData\Local\Temp\cc4RBmke.o (eeprom_write_block)
+                              C:\Users\romai\AppData\Local\Temp\cccf6ysi.o (eeprom_write_block)
 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eewr_byte.o)
-                              C:\Users\romai\AppData\Local\Temp\cc4RBmke.o (eeprom_write_byte)
+                              C:\Users\romai\AppData\Local\Temp\cccf6ysi.o (eeprom_write_byte)
 
 Discarded input sections
 
  .data          0x00000000        0x0 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
  .bss           0x00000000        0x0 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
- .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
- .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
- .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
- .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
- .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
- .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
+ .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
+ .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
+ .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
+ .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+ .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+ .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
  .text.uart_getchar
-                0x00000000        0xe C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
+                0x00000000        0xe C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
  .text.uart_putchar
-                0x00000000       0x2a C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
+                0x00000000       0x2a C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+ .text.UART__write_chars
+                0x00000000       0x30 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
  .text.UART__init_stdio
-                0x00000000       0x22 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
+                0x00000000       0x22 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
  .text.UART__read_timeout
-                0x00000000       0x7e C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
+                0x00000000       0x7e C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
  .data.uart_input
-                0x00000000        0xe C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
+                0x00000000        0xe C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
  .data.uart_output
-                0x00000000        0xe C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
- .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccsIEBgm.o
- .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccsIEBgm.o
- .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccsIEBgm.o
- .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc4BdC3q.o
- .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc4BdC3q.o
- .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc4BdC3q.o
- .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccmvXfPB.o
- .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccmvXfPB.o
- .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccmvXfPB.o
- .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
- .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
- .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
- .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
- .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
- .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
+                0x00000000        0xe C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+ .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccOCATvI.o
+ .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccOCATvI.o
+ .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccOCATvI.o
+ .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc4wBPah.o
+ .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc4wBPah.o
+ .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc4wBPah.o
+ .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cciWYowS.o
+ .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cciWYowS.o
+ .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cciWYowS.o
+ .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
+ .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
+ .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
+ .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+ .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+ .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
  .text.count_credentials
-                0x00000000       0x2c C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
- .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
- .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
- .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
- .text.uECC_vli_bytesToNative
-                0x00000000       0x9e C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
- .text.bits2int
-                0x00000000       0xfa C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0x2c C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+ .text          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+ .data          0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+ .bss           0x00000000        0x0 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.HMAC_init
-                0x00000000       0x70 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0x70 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.HMAC_update
-                0x00000000        0xc C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000        0xc C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.HMAC_finish
-                0x00000000       0x98 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0x98 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.update_V
-                0x00000000       0x46 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
- .text.uECC_vli_modMult
-                0x00000000       0x64 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0x46 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.mod_sqrt_secp224r1_rs
-                0x00000000       0x90 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0x90 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.mod_sqrt_secp224r1
-                0x00000000      0x548 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000      0x548 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.double_jacobian_secp256k1
-                0x00000000      0x1b8 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000      0x1b8 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.x_side_secp256k1
-                0x00000000       0x4a C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
- .text.uECC_sign_with_k_internal
-                0x00000000      0x390 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0x4a C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_get_rng
-                0x00000000        0xa C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000        0xa C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_curve_private_key_size
-                0x00000000       0x1a C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0x1a C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_curve_public_key_size
-                0x00000000        0xa C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000        0xa C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_secp192r1
-                0x00000000        0x6 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000        0x6 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_secp224r1
-                0x00000000        0x6 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000        0x6 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_secp256r1
-                0x00000000        0x6 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000        0x6 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_secp256k1
-                0x00000000        0x6 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000        0x6 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_shared_secret
-                0x00000000      0x1d2 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000      0x1d2 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_compress
-                0x00000000       0x3a C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0x3a C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_decompress
-                0x00000000       0xbe C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0xbe C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_valid_public_key
-                0x00000000      0x174 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000      0x174 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_compute_public_key
-                0x00000000       0xf4 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0xf4 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_sign_with_k
-                0x00000000       0x5e C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
- .text.uECC_sign
-                0x00000000       0x90 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0x5e C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_sign_deterministic
-                0x00000000      0x26e C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000      0x26e C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_verify
-                0x00000000      0x6f8 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000      0x6f8 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .rodata.curve_secp256k1
-                0x00000000       0xaa C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0xaa C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .rodata.curve_secp256r1
-                0x00000000       0xaa C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0xaa C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .rodata.curve_secp224r1
-                0x00000000       0xaa C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0xaa C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .rodata.curve_secp192r1
-                0x00000000       0xaa C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000000       0xaa C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text          0x00000000        0x0 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
  .data          0x00000000        0x0 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
  .bss           0x00000000        0x0 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
@@ -414,14 +406,14 @@ Linker script and memory map
 
 Address of section .data set to 0x800100
 LOAD C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
-LOAD C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
-LOAD C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
-LOAD C:\Users\romai\AppData\Local\Temp\ccsIEBgm.o
-LOAD C:\Users\romai\AppData\Local\Temp\cc4BdC3q.o
-LOAD C:\Users\romai\AppData\Local\Temp\ccmvXfPB.o
-LOAD C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
-LOAD C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
-LOAD C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+LOAD C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
+LOAD C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+LOAD C:\Users\romai\AppData\Local\Temp\ccOCATvI.o
+LOAD C:\Users\romai\AppData\Local\Temp\cc4wBPah.o
+LOAD C:\Users\romai\AppData\Local\Temp\cciWYowS.o
+LOAD C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
+LOAD C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+LOAD C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
 START GROUP
 LOAD C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a
 LOAD C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libm.a
@@ -528,7 +520,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x252c
+.text           0x00000000     0x2d8c
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -613,213 +605,238 @@ END GROUP
                 0x000000a6                        . = ALIGN (0x2)
  *(.text.*)
  .text.waitForConsent
-                0x000000a6       0x4c C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
+                0x000000a6       0x4c C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
                 0x000000a6                waitForConsent
  .text.makeCredentials
-                0x000000f2       0xba C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
+                0x000000f2       0xb2 C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
                 0x000000f2                makeCredentials
- .text.f2       0x000001ac        0xa C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
-                0x000001ac                f2
- .text.f3       0x000001b6        0xa C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
-                0x000001b6                f3
+ .text.getAssertion
+                0x000001a4       0xca C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
+                0x000001a4                getAssertion
+ .text.reinitializeRegistry
+                0x0000026e       0x18 C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
+                0x0000026e                reinitializeRegistry
+ .text.listCredentials
+                0x00000286       0x46 C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
+                0x00000286                listCredentials
  .text.initialize
-                0x000001c0       0x16 C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
-                0x000001c0                initialize
+                0x000002cc       0x16 C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
+                0x000002cc                initialize
  .text.startup.main
-                0x000001d6       0x26 C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
-                0x000001d6                main
+                0x000002e2       0x2e C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
+                0x000002e2                main
  .text.UART__init
-                0x000001fc       0x2e C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
-                0x000001fc                UART__init
+                0x00000310       0x2e C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+                0x00000310                UART__init
  .text.UART__getc
-                0x0000022a       0x28 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
-                0x0000022a                UART__getc
+                0x0000033e       0x28 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+                0x0000033e                UART__getc
  .text.UART__putc
-                0x00000252        0xe C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
-                0x00000252                UART__putc
+                0x00000366        0xe C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+                0x00000366                UART__putc
  .text.UART__write
-                0x00000260       0x28 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
-                0x00000260                UART__write
- .text.UART__write_chars
-                0x00000288       0x30 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
-                0x00000288                UART__write_chars
+                0x00000374       0x28 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+                0x00000374                UART__write
  .text.__vector_18
-                0x000002b8       0x50 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
-                0x000002b8                __vector_18
+                0x0000039c       0x50 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+                0x0000039c                __vector_18
  .text.UART__read
-                0x00000308       0x28 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
-                0x00000308                UART__read
+                0x000003ec       0x28 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+                0x000003ec                UART__read
  .text.initialize_buffer
-                0x00000330       0x10 C:\Users\romai\AppData\Local\Temp\ccsIEBgm.o
-                0x00000330                initialize_buffer
+                0x00000414       0x10 C:\Users\romai\AppData\Local\Temp\ccOCATvI.o
+                0x00000414                initialize_buffer
  .text.buffer_push
-                0x00000340       0x34 C:\Users\romai\AppData\Local\Temp\ccsIEBgm.o
-                0x00000340                buffer_push
+                0x00000424       0x34 C:\Users\romai\AppData\Local\Temp\ccOCATvI.o
+                0x00000424                buffer_push
  .text.buffer_pop
-                0x00000374       0x30 C:\Users\romai\AppData\Local\Temp\ccsIEBgm.o
-                0x00000374                buffer_pop
+                0x00000458       0x30 C:\Users\romai\AppData\Local\Temp\ccOCATvI.o
+                0x00000458                buffer_pop
  .text.initialize_button
-                0x000003a4        0x6 C:\Users\romai\AppData\Local\Temp\cc4BdC3q.o
-                0x000003a4                initialize_button
+                0x00000488        0x6 C:\Users\romai\AppData\Local\Temp\cc4wBPah.o
+                0x00000488                initialize_button
  .text.is_button_pressed
-                0x000003aa        0x8 C:\Users\romai\AppData\Local\Temp\cc4BdC3q.o
-                0x000003aa                is_button_pressed
+                0x0000048e        0x8 C:\Users\romai\AppData\Local\Temp\cc4wBPah.o
+                0x0000048e                is_button_pressed
  .text.initialize_led
-                0x000003b2        0x6 C:\Users\romai\AppData\Local\Temp\ccmvXfPB.o
-                0x000003b2                initialize_led
- .text.led_on   0x000003b8        0x4 C:\Users\romai\AppData\Local\Temp\ccmvXfPB.o
-                0x000003b8                led_on
- .text.led_off  0x000003bc        0x4 C:\Users\romai\AppData\Local\Temp\ccmvXfPB.o
-                0x000003bc                led_off
+                0x00000496        0x6 C:\Users\romai\AppData\Local\Temp\cciWYowS.o
+                0x00000496                initialize_led
+ .text.led_on   0x0000049c        0x4 C:\Users\romai\AppData\Local\Temp\cciWYowS.o
+                0x0000049c                led_on
+ .text.led_off  0x000004a0        0x4 C:\Users\romai\AppData\Local\Temp\cciWYowS.o
+                0x000004a0                led_off
  .text.rng_function
-                0x000003c0       0xbc C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
+                0x000004a4       0xe4 C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
  .text.initialize_crypto
-                0x0000047c       0x74 C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
-                0x0000047c                initialize_crypto
+                0x00000588       0xbe C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
+                0x00000588                initialize_crypto
  .text.generate_keypair
-                0x000004f0       0x3a C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
-                0x000004f0                generate_keypair
+                0x00000646       0x3a C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
+                0x00000646                generate_keypair
  .text.generate_credential_id
-                0x0000052a       0x22 C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
-                0x0000052a                generate_credential_id
+                0x00000680        0xa C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
+                0x00000680                generate_credential_id
+ .text.sign_client_data
+                0x0000068a       0x46 C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
+                0x0000068a                sign_client_data
  .text.find_empty_slot
-                0x0000054c       0x2a C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
+                0x000006d0       0x2a C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+ .text.reset_registry
+                0x000006fa       0x20 C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+                0x000006fa                reset_registry
  .text.initialize_registry
-                0x00000576       0x4c C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
-                0x00000576                initialize_registry
+                0x0000071a       0x32 C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+                0x0000071a                initialize_registry
  .text.find_credential
-                0x000005c2       0x92 C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
-                0x000005c2                find_credential
+                0x0000074c       0x92 C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+                0x0000074c                find_credential
  .text.register_credential
-                0x00000654       0x9c C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
-                0x00000654                register_credential
+                0x000007de       0x9c C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+                0x000007de                register_credential
  .text.can_register
-                0x000006f0       0x3e C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
-                0x000006f0                can_register
+                0x0000087a       0x1c C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+                0x0000087a                can_register
+ .text.get_credential
+                0x00000896       0x4c C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+                0x00000896                get_credential
+ .text.list_credentials
+                0x000008e2       0x90 C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+                0x000008e2                list_credentials
  .text.uECC_vli_clear
-                0x0000072e       0x16 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000972       0x16 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_isZero
-                0x00000744       0x46 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000988       0x46 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_testBit
-                0x0000078a       0x46 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x000009ce       0x46 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_numBits
-                0x000007d0       0xa8 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000a14       0xa8 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_set
-                0x00000878       0x28 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000abc       0x28 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_cmp_unsafe
-                0x000008a0       0x70 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000ae4       0x70 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_rshift1
-                0x00000910       0x64 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000b54       0x64 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_add
-                0x00000974       0x7e C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000bb8       0x7e C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_sub
-                0x000009f2       0x82 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000c36       0x82 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_cmp
-                0x00000a74       0x3c C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000cb8       0x3c C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_modAdd
-                0x00000ab0       0x56 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000cf4       0x56 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_mmod
-                0x00000b06      0x390 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00000d4a      0x390 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.regularize_k
-                0x00000e96       0xa8 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x000010da       0xa8 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_generate_random_int
-                0x00000f3e       0xd6 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00001182       0xd6 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_nativeToBytes
-                0x00001014       0x72 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00001258       0x72 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+ .text.uECC_vli_bytesToNative
+                0x000012ca       0x9e C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+ .text.bits2int
+                0x00001368       0xfa C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_modSub
-                0x00001086       0x44 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00001462       0x44 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.vli_modInv_update
-                0x000010ca       0x96 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x000014a6       0x96 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_modInv
-                0x00001160      0x2a8 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x0000153c      0x2a8 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_mult
-                0x00001408      0x2e4 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x000017e4      0x2e4 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+ .text.uECC_vli_modMult
+                0x00001ac8       0x64 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_modMult_fast
-                0x000016ec       0x52 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00001b2c       0x52 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_vli_modSquare_fast
-                0x0000173e        0xa C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00001b7e        0xa C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.double_jacobian_default
-                0x00001748      0x1e6 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00001b88      0x1e6 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.x_side_default
-                0x0000192e       0xac C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00001d6e       0xac C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.mod_sqrt_default
-                0x000019da       0xd6 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
- .text.apply_z  0x00001ab0       0x66 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00001e1a       0xd6 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+ .text.apply_z  0x00001ef0       0x66 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.XYcZ_add
-                0x00001b16       0xf4 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00001f56       0xf4 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.XYcZ_addC
-                0x00001c0a      0x14e C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x0000204a      0x14e C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.EccPoint_mult
-                0x00001d58      0x3b2 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00002198      0x3b2 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.EccPoint_compute_public_key
-                0x0000210a       0xd4 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x0000254a       0xd4 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+ .text.uECC_sign_with_k_internal
+                0x0000261e      0x390 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  .text.uECC_set_rng
-                0x000021de        0xa C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
-                0x000021de                uECC_set_rng
+                0x000029ae        0xa C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+                0x000029ae                uECC_set_rng
  .text.uECC_secp160r1
-                0x000021e8        0x6 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
-                0x000021e8                uECC_secp160r1
+                0x000029b8        0x6 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+                0x000029b8                uECC_secp160r1
  .text.uECC_make_key
-                0x000021ee      0x106 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
-                0x000021ee                uECC_make_key
+                0x000029be      0x106 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+                0x000029be                uECC_make_key
+ .text.uECC_sign
+                0x00002ac4       0x90 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
+                0x00002ac4                uECC_sign
  .text.libgcc.mul
-                0x000022f4       0x20 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
-                0x000022f4                __mulsi3
+                0x00002b54       0x20 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+                0x00002b54                __mulsi3
  .text.libgcc.div
-                0x00002314       0x28 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodhi4.o)
-                0x00002314                _div
-                0x00002314                __divmodhi4
+                0x00002b74       0x28 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodhi4.o)
+                0x00002b74                _div
+                0x00002b74                __divmodhi4
  .text.libgcc.builtins
-                0x0000233c       0x12 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clzsi2.o)
-                0x0000233c                __clzsi2
+                0x00002b9c       0x12 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clzsi2.o)
+                0x00002b9c                __clzsi2
  .text.libgcc.builtins
-                0x0000234e       0x24 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clzhi2.o)
-                0x0000234e                __clzhi2
+                0x00002bae       0x24 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clzhi2.o)
+                0x00002bae                __clzhi2
  .text.libgcc.mul
-                0x00002372       0x16 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
-                0x00002372                __muluhisi3
+                0x00002bd2       0x16 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00002bd2                __muluhisi3
  .text.libgcc.mul
-                0x00002388       0x56 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulsidi3.o)
-                0x00002388                __umulsidi3
-                0x0000238a                __umulsidi3_helper
+                0x00002be8       0x56 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulsidi3.o)
+                0x00002be8                __umulsidi3
+                0x00002bea                __umulsidi3_helper
  .text.libgcc.prologue
-                0x000023de       0x38 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_prologue.o)
-                0x000023de                __prologue_saves__
+                0x00002c3e       0x38 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_prologue.o)
+                0x00002c3e                __prologue_saves__
  .text.libgcc.prologue
-                0x00002416       0x36 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_epilogue.o)
-                0x00002416                __epilogue_restores__
- .text.libgcc   0x0000244c       0x12 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
-                0x0000244c                __adddi3
- .text.libgcc   0x0000245e       0x12 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_cmpdi2.o)
-                0x0000245e                __cmpdi2
+                0x00002c76       0x36 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_epilogue.o)
+                0x00002c76                __epilogue_restores__
+ .text.libgcc   0x00002cac       0x12 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+                0x00002cac                __adddi3
+ .text.libgcc   0x00002cbe       0x12 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_cmpdi2.o)
+                0x00002cbe                __cmpdi2
  .text.libgcc.mul
-                0x00002470       0x1e C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
-                0x00002470                __umulhisi3
+                0x00002cd0       0x1e C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00002cd0                __umulhisi3
  .text.libgcc.div
-                0x0000248e       0x28 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
-                0x0000248e                __udivmodhi4
+                0x00002cee       0x28 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x00002cee                __udivmodhi4
  .text.libgcc.mul
-                0x000024b6       0x12 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
-                0x000024b6                __muldi3_6
+                0x00002d16       0x12 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+                0x00002d16                __muldi3_6
  .text.avr-libc
-                0x000024c8       0x20 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eerd_block.o)
-                0x000024c8                eeprom_read_block
-                0x000024cc                eeprom_read_blraw
+                0x00002d28       0x20 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eerd_block.o)
+                0x00002d28                eeprom_read_block
+                0x00002d2c                eeprom_read_blraw
  .text.avr-libc
-                0x000024e8       0x10 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eerd_byte.o)
-                0x000024e8                eeprom_read_byte
+                0x00002d48       0x10 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eerd_byte.o)
+                0x00002d48                eeprom_read_byte
  .text.avr-libc
-                0x000024f8       0x14 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eewr_block.o)
-                0x000024f8                eeprom_write_block
+                0x00002d58       0x14 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eewr_block.o)
+                0x00002d58                eeprom_write_block
  .text.avr-libc
-                0x0000250c       0x1c C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eewr_byte.o)
-                0x0000250c                eeprom_write_byte
-                0x0000250e                eeprom_write_r18
-                0x00002528                        . = ALIGN (0x2)
+                0x00002d6c       0x1c C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a(eewr_byte.o)
+                0x00002d6c                eeprom_write_byte
+                0x00002d6e                eeprom_write_r18
+                0x00002d88                        . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00002528        0x0 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
-                0x00002528                _exit
-                0x00002528                exit
+ .fini9         0x00002d88        0x0 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x00002d88                _exit
+                0x00002d88                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -838,57 +855,50 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00002528        0x4 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x00002d88        0x4 C:/Users/romai/Documents/sys embarque/libs/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
  *(.hightext)
  *(.hightext*)
  *(.progmemx.*)
-                0x0000252c                        . = ALIGN (0x2)
+                0x00002d8c                        . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
-                0x0000252c                        _etext = .
+                0x00002d8c                        _etext = .
 
-.data           0x00800100       0xc2 load address 0x0000252c
+.data           0x00800100       0xae load address 0x00002d8c
                 0x00800100                        PROVIDE (__data_start = .)
  *(.data)
  *(.data*)
- .data.seed     0x00800100        0x4 C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
+ .data.seed     0x00800100        0x4 C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
  *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
- .rodata.f2.str1.1
-                0x00800104       0x14 C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
-                                  0xa (size before relaxing)
- .rodata.f3.str1.1
-                0x00800118        0xa C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
  .rodata.curve_secp160r1
-                0x00800118       0xaa C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x00800104       0xaa C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  *(.gnu.linkonce.r*)
-                0x008001c2                        . = ALIGN (0x2)
-                0x008001c2                        _edata = .
-                0x008001c2                        PROVIDE (__data_end = .)
+                0x008001ae                        . = ALIGN (0x2)
+                0x008001ae                        _edata = .
+                0x008001ae                        PROVIDE (__data_end = .)
 
-.bss            0x008001c2       0x49
-                0x008001c2                        PROVIDE (__bss_start = .)
+.bss            0x008001ae       0x48
+                0x008001ae                        PROVIDE (__bss_start = .)
  *(.bss)
  *(.bss*)
- .bss.buffer    0x008001c2        0x6 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
+ .bss.buffer    0x008001ae        0x6 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
  .bss.buffer_data
-                0x008001c8       0x40 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
- .bss.adc_initialized.0
-                0x00800208        0x1 C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
+                0x008001b4       0x40 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
  .bss.g_rng_function
-                0x00800209        0x2 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+                0x008001f4        0x2 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
  *(COMMON)
-                0x0080020b                        PROVIDE (__bss_end = .)
-                0x0000252c                        __data_load_start = LOADADDR (.data)
-                0x000025ee                        __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x008001f6                        PROVIDE (__bss_end = .)
+                0x00002d8c                        __data_load_start = LOADADDR (.data)
+                0x00002e3a                        __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0080020b        0x0
+.noinit         0x008001f6        0x0
                 [!provide]                        PROVIDE (__noinit_start = .)
  *(.noinit .noinit.* .gnu.linkonce.n.*)
                 [!provide]                        PROVIDE (__noinit_end = .)
-                0x0080020b                        _end = .
+                0x008001f6                        _end = .
                 [!provide]                        PROVIDE (__heap_start = .)
                 0x00000000                        __flmap_init_label = DEFINED (__flmap_noinit_start)?__flmap_noinit_start:0x0
                 0x00000000                        __flmap = DEFINED (__flmap)?__flmap:0x0
@@ -929,15 +939,15 @@ END GROUP
 
 .comment        0x00000000       0x2f
  *(.comment)
- .comment       0x00000000       0x2f C:\Users\romai\AppData\Local\Temp\ccmpIV5f.o
+ .comment       0x00000000       0x2f C:\Users\romai\AppData\Local\Temp\cca4qOfM.o
                                  0x30 (size before relaxing)
- .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\ccwIhgqi.o
- .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\ccsIEBgm.o
- .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\cc4BdC3q.o
- .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\ccmvXfPB.o
- .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\ccq5Ab4Q.o
- .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\cc4RBmke.o
- .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\cc6Y0pZ0.o
+ .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\ccS8J66b.o
+ .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\ccOCATvI.o
+ .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\cc4wBPah.o
+ .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\cciWYowS.o
+ .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\ccIXw3ry.o
+ .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\cccf6ysi.o
+ .comment       0x0000002f       0x30 C:\Users\romai\AppData\Local\Temp\ccyScJcm.o
 
 .note.gnu.avr.deviceinfo
                 0x00000000       0x40

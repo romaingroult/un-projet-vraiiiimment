@@ -65,7 +65,7 @@ static uint8_t find_empty_slot(){
 
 
 uint8_t register_credential(const uint8_t *app_id, const uint8_t *credential_id, const uint8_t *private_key){
-    int8_t index = find_credential(app_id);
+    uint8_t index = find_credential(app_id);
     if(index != MAX_CREDENTIALS){  
         uint16_t address = calculate_address(index);
         eeprom_write_block(credential_id, (void*)(address + APP_ID_SIZE), CREDENTIAL_ID_SIZE);
@@ -116,4 +116,24 @@ uint8_t count_credentials(void) {
 
 uint8_t can_register(const uint8_t *app_id){
     return find_credential(app_id) != MAX_CREDENTIALS || find_empty_slot() != MAX_CREDENTIALS;
+}
+
+
+void get_credential(uint8_t index, uint8_t* credential_id, uint8_t* private_key){
+    int16_t address = calculate_address(index);
+    eeprom_read_block(credential_id, (void*) (address + APP_ID_SIZE), CREDENTIAL_ID_SIZE);
+    eeprom_read_block(private_key, (void*) (address + APP_ID_SIZE + CREDENTIAL_ID_SIZE), PRIVATE_KEY_SIZE);
+}
+
+void list_credentials(uint8_t *list, uint8_t *count) {
+    uint8_t current = 0;
+    for (uint8_t index = 0; index < MAX_CREDENTIALS; ++index) {
+        if (!is_slot_empty(index)) {
+            uint16_t address = calculate_address(index);
+            eeprom_read_block(&list[current * 36], (void*)(address + APP_ID_SIZE), CREDENTIAL_ID_SIZE);
+            eeprom_read_block(&list[current * 36 + CREDENTIAL_ID_SIZE],(void*)address, APP_ID_SIZE);
+            ++current;
+        }
+    }
+    *count = current;
 }
