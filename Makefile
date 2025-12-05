@@ -14,8 +14,6 @@ BAUD := 115200
 SRCS := main.c uart.c buffer.c button.c led.c crypto.c eeprom_registry.c
 SRCS += micro-ecc/uECC.c
 
-LIBS :=
-
 # ============================================
 # Flags de compilation
 # ============================================
